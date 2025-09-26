@@ -7,7 +7,7 @@ A development container allows you to use a container as a full-featured develop
 The Development Container Specification seeks to find ways to enrich existing formats with common development specific settings, tools, and configuration while still providing a simplified, un-orchestrated single container option – so that they can be used as coding environments or for continuous integration and testing.
 
 ![Stages of container-based development, from development to deployment](images/dev-container-stages.png)
-
+Zachariah Oranday Zepeda 
 The first format in the specification, `devcontainer.json`, was born out of necessity. It is a structured JSON with Comments (jsonc) metadata format that tools can use to store any needed configuration required to develop inside of local or cloud-based containerized coding. 
 
 We envision that this same structured data can be embedded in images and other formats – all while retaining a common object model for consistent processing. For example, some of this same metadata can be added to a `devcontainer.metadata` image label to tie settings directly to a container image.
